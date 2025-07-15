@@ -51,22 +51,22 @@ The model showed excellent convergence with stable training and validation loss 
 ## 🛠️ Usage
 
 ### 1. Aspect Extraction
-Run the `aspect-extraction.ipynb` notebook to extract aspects from hotel reviews:
+Run the `paper-2-aspect-extract-kaggle-code.ipynb` notebook to extract aspects from hotel reviews:
 
 <img width="1213" height="621" alt="Screenshot 2025-07-15 at 7 21 44 PM 1" src="https://github.com/user-attachments/assets/eb9998e8-1d20-413f-a50e-15949e417071" />
 
 ### 2. Model Training & Inference
-Execute the model training notebook to fine-tune the GPT-2 + BERT fusion model:
+Execute the model training notebook `multimodal-fusion-gpt2-bert-0-2-epoch-source-code.ipynb` to fine-tune the GPT-2 + BERT fusion model:
 
 <img width="1187" height="491" alt="Screenshot 2025-07-15 at 8 09 06 PM" src="https://github.com/user-attachments/assets/409895ca-1927-4d8b-b41f-a30a9c433de6" />
 
 ## 📁 Repository Structure
 
 ```
-├── aspect-extraction.ipynb    # BERT Topic modeling for aspect extraction
-├── model-training.ipynb       # GPT-2 + BERT fusion model training
-├── results_summary.txt        # Detailed performance metrics
-└── README.md                  # This file
+├── paper-2-aspect-extract-kaggle-code.ipynb                      # BERT Topic modeling for aspect extraction
+├── multimodal-fusion-gpt2-bert-0-2-epoch-source-code.ipynb       # GPT-2 + BERT fusion model training
+├── results_summary.txt                                           # Detailed performance metrics
+└── README.md                                                     # This file
 ```
 
 ## 🔬 Technical Contributions
@@ -82,16 +82,5 @@ This work advances the state-of-the-art in aspect-based sentiment analysis by de
 ---
 
 *For detailed implementation and results, please refer to the provided Jupyter notebooks and result files.*
-
-
-
-<img width="507" height="460" alt="simplified_model_architecture" src="https://github.com/user-attachments/assets/61665ff0-d50d-4eb3-8491-17042917b355" />
-[results_summary.txt](https://github.com/user-attachments/files/21235803/results_summary.txt)
-<img width="1400" height="600" alt="coherence_silhouette_score" src="https://github.com/user-attachments/assets/03c3e6f5-2825-47da-9a35-75b5c169c48f" />
-<img width="989" height="990" alt="training vs validation loss" src="https://github.com/user-attachments/assets/643b9973-83e7-4c59-bc64-07c7e26316c0" />
-<img width="1213" height="621" alt="Screenshot 2025-07-15 at 7 21 44 PM 1" src="https://github.com/user-attachments/assets/eb9998e8-1d20-413f-a50e-15949e417071" />
-<img width="1187" height="491" alt="Screenshot 2025-07-15 at 8 09 06 PM" src="https://github.com/user-attachments/assets/409895ca-1927-4d8b-b41f-a30a9c433de6" />
-
-
 
 
