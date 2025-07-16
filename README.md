@@ -1,4 +1,4 @@
-# Aspect-Based Sentiment Analysis for Hotel Reviews
+# A hybrid transformer architecture for unsupervised aspect based sentiment analysis
 
 ## 🎯 Overview
 
